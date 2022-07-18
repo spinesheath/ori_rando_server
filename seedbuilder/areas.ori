@@ -570,6 +570,7 @@ home: DeathGauntlet 368 -191
 		casual-core DoubleJump -- *sein adjust: requires jumping off left crusher, probably not obvious enough for casual
 		master-lure Bash -- use fronkey
 		master-lure Dash Ability=6 Energy=1 -- *rjump=1 use slime, rhino or fronkey
+		master-abilities Dash Ability=3 -- Dash glide from crusher to upper level, microledge on right wall to get atop crusher
 	conn: MoonGrottoAboveTeleporter
 		master-lure Bash
 home: DeathGauntletRoof 328 -178
