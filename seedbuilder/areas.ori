@@ -681,6 +681,8 @@ home: GladesLaserArea -168 -175
 		casual-core Bash Grenade
 		standard-lure Bash
 		expert-dboost WallJump Glide Health=2
+		expert-core Stomp WallJump
+		expert-core Stomp Climb
 		expert-abilities Dash Ability=6 -- *lure *rjump=1
 	pickup: GladesLaserGrenade
 		casual-core Grenade Climb ChargeJump Bash
