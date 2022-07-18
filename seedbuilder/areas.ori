@@ -329,10 +329,19 @@ home: SunkenGladesRunaway 185 -217
 		casual-core Grenade ChargeJump
 		casual-core Grenade Bash
 		standard-core Grenade WallJump DoubleJump
+<<<<<<< Updated upstream
 		standard-core Grenade Glide Wind WallJump -- wind to the right of spawn
 		standard-core Grenade Glide Wind Climb -- wind to the right of spawn
 		expert-abilities Grenade Dash Ability=6 -- *rjump=1
 		glitched Grenade -- glitch swing with grenade
+=======
+		standard-core Grenade Glide Wind WallJump
+		standard-core Grenade Glide Wind Climb
+		master-core Grenade DoubleJump Ability=12
+		master-core Grenade Glide Wind DoubleJump
+		expert-abilities Grenade Dash Ability=6
+		glitched Grenade
+>>>>>>> Stashed changes
 	pickup: GladesMainPool
 		casual-core Water
 		expert-dboost Bash Health=3 -- *altr
@@ -341,7 +350,12 @@ home: SunkenGladesRunaway 185 -217
 		master-dboost Health=3 -- *altr
 	pickup: GladesMainPoolDeep
 		casual-core Water
+<<<<<<< Updated upstream
 		expert-dboost Health=7 -- *altr
+=======
+		expert-dboost Health=7
+		expert-dboost Health=6 Stomp
+>>>>>>> Stashed changes
 	pickup: FronkeyWalkRoof
 		casual-core ChargeJump
 		casual-core Glide Wind
@@ -364,7 +378,12 @@ home: SunkenGladesRunaway 185 -217
 		casual-core Grenade Bash
 		casual-dboost WallJump
 		casual-dboost Climb
+<<<<<<< Updated upstream
 		standard-lure Bash -- *sein *lure fronkey from left of spawn
+=======
+		standard-lure Bash
+		expert-abilities Dash Ability=6
+>>>>>>> Stashed changes
 		master-core DoubleJump
 	conn: SpiritTreeRefined
 		casual-core TPGrove
@@ -514,6 +533,7 @@ home: DeathGauntlet 368 -191
 		casual-core ChargeJump
 		casual-core DoubleJump -- *sein adjust: requires jumping off left crusher, probably not obvious enough for casual
 		master-lure Bash -- *dbash use fronkey
+		master-abilities Dash Ability=3 -- Dash glide from crusher to upper level, microledge on right wall to get atop crusher
 	conn: DeathGauntletMoat
 		casual-core Water
 		expert-dboost Health=4
@@ -550,6 +570,7 @@ home: DeathGauntlet 368 -191
 		casual-core DoubleJump -- *sein adjust: requires jumping off left crusher, probably not obvious enough for casual
 		master-lure Bash -- use fronkey
 		master-lure Dash Ability=6 Energy=1 -- *rjump=1 use slime, rhino or fronkey
+		master-abilities Dash Ability=3 -- Dash glide from crusher to upper level, microledge on right wall to get atop crusher
 	conn: MoonGrottoAboveTeleporter
 		master-lure Bash
 home: DeathGauntletRoof 328 -178
@@ -661,6 +682,8 @@ home: GladesLaserArea -168 -175
 		casual-core Bash Grenade
 		standard-lure Bash
 		expert-dboost WallJump Glide Health=2
+		expert-core Stomp WallJump
+		expert-core Stomp Climb
 		expert-abilities Dash Ability=6 -- *lure *rjump=1
 	pickup: GladesLaserGrenade
 		casual-core Grenade Climb ChargeJump Bash
