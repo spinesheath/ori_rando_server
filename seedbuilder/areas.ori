@@ -3704,7 +3704,7 @@ home: ValleyThreeBirdLever -392 -98
 		casual-core Bash
 		casual-core Climb ChargeJump Glide
 		casual-core Climb ChargeJump DoubleJump
-		standard-core Dash DoubleJump
+		master-core-core Dash DoubleJump
 		expert-abilities Dash Ability=6
 		gjump Climb ChargeJump Grenade
 		master-abilities DoubleJump Ability=12
